@@ -1,4 +1,6 @@
-Globals in Caché / Ensemble / IRIS are normally invisible over SQL access   
+## Globals in Caché / Ensemble / IRIS are normally invisible over SQL access   
+ [![Quality Gate Status](https://community.objectscriptquality.com/api/project_badges/measure?project=intersystems_iris_community%2FGlobal-dump-to-SQL&metric=alert_status)](https://community.objectscriptquality.com/dashboard?id=intersystems_iris_community%2FGlobal-dump-to-SQL)
+
 This example shows how to overcome this limit.   
 Globals are presented as content of a table with their subscripts and  
 the stored content.  
@@ -49,5 +51,3 @@ ID	Global	       Subscript	         Value
 [Demo Server SMP](https://global-dump-sql.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
 [Demo Server WebTerminal](https://global-dump-sql.demo.community.intersystems.com/terminal/)    
         
-**Code Quality**   
-<img width="85%" src="https://openexchange.intersystems.com/mp/img/packages/1771/screenshots/fnozojwtkdvzlgnxitihv64qg0a.jpg">
